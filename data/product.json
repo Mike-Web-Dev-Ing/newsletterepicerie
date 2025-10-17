@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Les Artisans de la Côte Bleue",
+    "image": "assets/images/unnamed.webp",
+  
+    "description": "Vins, tote bag, casquettes."
+   
+  },
+  {
+    "id": 2,
+    "name": "Ouvert 7jours/7 et toute l'année",
+    "image": "assets/images/unnamed (3).webp",
+  
+    "description":""
+   
+  },
+  {
+    "id": 3,
+    "name": "Snacking",
+    "image": "assets/images/snacking.webp",
+   
+    
+    "description": "Pizzas, sandwichs, boissons fraîches."
+   
+  }
+]

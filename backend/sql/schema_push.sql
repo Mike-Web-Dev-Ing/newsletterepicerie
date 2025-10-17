@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS `push_tokens` (
+  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `token` VARCHAR(255) NOT NULL,
+  `created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uniq_push_tokens_token` (`token`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
